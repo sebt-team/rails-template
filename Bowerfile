@@ -1,0 +1,40 @@
+# A sample Bowerfile
+# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+
+# Optional and suggested packages
+# asset 'socket.io-client'
+# asset 'ngAutocomplete'
+# asset 'angular-ui-tree'
+# asset 'angular-full'
+# asset 'highcharts-release'
+# asset 'highcharts-ng'
+# asset 'angular-google-maps', '2.1.0'
+# asset 'angular-simple-logger'
+# asset 'angular-ui-bootstrap'
+# asset 'angular-validator'
+# asset 'angular-form-builder', 'git://github.com/felipecamposclarke/angular-form-builder.git#2e17df6'
+# asset 'angular-truncate'
+# asset 'ng-tags-input'
+# asset 'ng-table'
+# asset 'angular-notify'
+# asset 'angular-resource'
+# asset 'angular-spinner'
+# asset 'ng-wig'
+# asset 'angular-bootstrap'
+# asset 'angular-ui-router'
+# asset 'angular-animate', '1.4.3'
+
+
+
+asset 'bootstrap-sass-official'
+asset 'underscore'
+asset 'angular', '1.3.10'
+asset 'angular-restmod', '1.1.3'
+asset 'angular-inflector'
+asset 'angular-sanitize'
+asset 'fontawesome'
+
+
+# Resolutions
+resolution 'angular', '1.3.10'
+# resolution 'angular-animate', '1.4.3'

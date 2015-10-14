@@ -11,6 +11,23 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# Ignore schema
+/db/schema.rb
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+.rbenv-vars
+.powder
+
+# Ignore bower packages
+vendor/assets/bower_components
+
+# Ignore volatile files
+/public/system
+
+# Ignore node modules
+socket_handlers/node_modules
+
+# ignore path bug
+/path

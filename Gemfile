@@ -45,7 +45,7 @@ gem 'pundit'
 # Use postgresql as the database for Active Record
 gem "pg"
 # Use redis as the system cache
-gem "redis"
+# gem "redis"
 # Use user authentication
 gem "devise"
 # Use content management
