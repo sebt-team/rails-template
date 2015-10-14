@@ -31,23 +31,6 @@ GIT
     state_machine (1.2.0)
 
 GIT
-  remote: git://github.com/stefanoverna/activeadmin-dragonfly.git
-  revision: 611164ff0255c66a3e555b5d46dd99f0eff1f115
-  specs:
-    activeadmin-dragonfly (0.0.2)
-      activeadmin
-      dragonfly (= 0.9.15)
-      rack-cache
-
-GIT
-  remote: git://github.com/stefanoverna/activeadmin-wysihtml5.git
-  revision: cf609b7bd4331866a261bd04da81fd84b80d9469
-  specs:
-    activeadmin-wysihtml5 (1.0.0)
-      activeadmin
-      activeadmin-dragonfly
-
-GIT
   remote: https://github.com/bastiaanterhorst/rich.git
   revision: b4cc4e321eb36d8f1e0fd0a98dbc47abc2df1c36
   specs:
@@ -180,9 +163,6 @@ GEM
       warden (~> 1.2.3)
     devise-i18n (0.12.1)
     diff-lcs (1.2.5)
-    dragonfly (0.9.15)
-      multi_json (~> 1.0)
-      rack
     enumerize (1.0.0)
       activesupport (>= 3.2)
     erubis (2.7.0)
@@ -305,8 +285,6 @@ GEM
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.5.5)
-    rack-cache (1.5.0)
-      rack (>= 0.4)
     rack-cors (0.4.0)
     rack-raw-upload (1.1.1)
       multi_json
@@ -434,9 +412,7 @@ DEPENDENCIES
   active_rest_client
   active_skin
   activeadmin!
-  activeadmin-dragonfly!
   activeadmin-translate
-  activeadmin-wysihtml5!
   activerecord-postgres-hstore
   aws-sdk (< 2.0)
   better_errors

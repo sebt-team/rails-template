@@ -51,8 +51,8 @@ gem "devise"
 # Use content management
 gem "activeadmin", github: "gregbell/active_admin"
 # Use activeadmin wysihtml5 editor. Read More: https://github.com/unmantained-activeadmin-plugins/activeadmin-wysihtml5
-gem 'activeadmin-dragonfly', github: 'stefanoverna/activeadmin-dragonfly'
-gem 'activeadmin-wysihtml5', github: 'stefanoverna/activeadmin-wysihtml5'
+# gem 'activeadmin-dragonfly', github: 'stefanoverna/activeadmin-dragonfly'
+# gem 'activeadmin-wysihtml5', github: 'stefanoverna/activeadmin-wysihtml5'
 # Use truncate_html for truncate html_safe text. Read More: https://github.com/hgmnz/truncate_html
 gem 'truncate_html'
 # Use rut validation gem.
