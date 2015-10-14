@@ -1,0 +1,20 @@
+// ====================================================
+// GLOBAL VARIABLES
+// ====================================================
+// SASS variable overrides must be declared before loading up Active Admin's styles.
+//
+// To view the variables that Active Admin provides, take a look at
+// `app/assets/stylesheets/active_admin/mixins/_variables.css.scss` in the
+// Active Admin source.
+//
+// For example, to change the sidebar width:
+// $sidebar-width: 242px;
+
+$skinTextColor: #000;
+$skinTextActiveColor: #fff;
+$skinTextTable: #000;
+$skinActiveColor: #FFAF12;
+$skinHeaderBck: #000;
+$panelHeaderBck: #FFAF12;
+$btnPrimaryColor: $skinActiveColor !default;
+$btnSecundaryColor: $skinHeaderBck !default;

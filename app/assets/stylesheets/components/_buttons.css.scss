@@ -1,0 +1,33 @@
+// ====================================================
+// BUTTONS VARIABLES
+// ====================================================
+
+// ====================================================
+// BUTTONS STYLES
+// ====================================================
+
+.button-primary {
+	background-color: $btnPrimaryColor !important;
+	color: #fff !important;
+	&:hover {
+		background: lighten( $btnPrimaryColor, 10% ) !important;
+		color: #fff !important;
+	}
+	&.active {
+		background: darken( $btnPrimaryColor, 20% ) !important;
+		border-color: darken( $btnPrimaryColor, 30% ) !important;
+	}
+}
+
+.button-secundary {
+	background-color: $btnSecundaryColor !important;
+	color: #fff !important;
+	&:hover {
+		background: lighten( $btnSecundaryColor, 10% ) !important;
+		color: #fff !important;
+	}
+	&.active {
+		background: darken( $btnSecundaryColor, 20% ) !important;
+		border-color: darken( $btnSecundaryColor, 30% ) !important;
+	}
+}

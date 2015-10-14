@@ -1,0 +1,37 @@
+// ====================================================
+// USAGE
+// ====================================================
+// Copy this link on your activeadmin custom view
+// <link rel="stylesheet" href="<%= stylesheet_path('app') %>" media="screen" charset="utf-8">
+
+// ====================================================
+// APP IMPORTS
+// ====================================================
+
+// @import "compass";
+
+@import "modules/*";
+@import "components/*";
+@import "pages/*";
+@import "bootstrap_and_overrides";
+
+// ====================================================
+// APP GENERAL STYLES
+// ====================================================
+
+// @import "compass/css3";
+
+form ol {
+  float: left;
+  position: relative !important;
+  margin: 0 10px;
+}
+
+.label {
+  display: block;
+  width: 20%;
+  float: left;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #5e6469;
+}

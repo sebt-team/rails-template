@@ -1,0 +1,14 @@
+.generic-chart {
+  width: 45%;
+  float: left;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+.detailed-chart {
+  height: 400px;
+  padding: 0 3%;
+  & > div {
+    padding-bottom: 100px;
+  }
+}
