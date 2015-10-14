@@ -8,12 +8,12 @@
 # RUN APP
 # ----------------------------------------
 
-@adminApp.run ['$builder', ($builder) ->
-
-  # run app
-  console.log 'Started'
-
-]
+# @adminApp.run ['$builder', ($builder) ->
+#
+#  # run app
+#  console.log 'Started'
+#
+# ]
 
 @adminApp.config(['restmodProvider', (restmodProvider) ->
   restmodProvider.rebase("RootlessAMSApi",
